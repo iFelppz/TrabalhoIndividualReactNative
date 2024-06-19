@@ -41,9 +41,9 @@ export function BottomTabsRoutes() {
         component={Home}
         options={{
           tabBarIcon: ({ focused }) => (
-            <View style={{ alignItems: 'center', justifyContent: 'center', marginTop: 10 }}>
+            <View style={{ alignItems: 'center', justifyContent: 'center', marginTop: 15 }}>
               <Icon name="home" size={20} color={focused ? "red" : '#fff'} />
-              <Text style={{ fontSize: 25, color: focused ? "red" : '#fff' }}>Home</Text>
+              <Text style={{ fontSize: 15, color: focused ? "red" : '#fff' }}>Home</Text>
             </View>
           ),
         }}
@@ -54,9 +54,9 @@ export function BottomTabsRoutes() {
         component={Profile}
         options={{
           tabBarIcon: ({ focused }) => (
-            <View style={{ alignItems: 'center', justifyContent: 'center', marginTop: 10 }}>
+            <View style={{ alignItems: 'center', justifyContent: 'center', marginTop: 15 }}>
               <Icon name="person" size={20} color={focused ? "red" : "#fff"} />
-              <Text style={{ fontSize: 25, color: focused ? "red" : '#fff' }}>Profile</Text>
+              <Text style={{ fontSize: 15, color: focused ? "red" : '#fff' }}>Profile</Text>
             </View>
           ),
         }}
